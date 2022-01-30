@@ -1,0 +1,14 @@
+#服务端口
+server:
+  port: 4444
+
+#日志
+logging:
+  level:
+    com.edianzu.print: info
+  file:
+    name: ./log/print.log
+  logback:
+    rollingpolicy:
+      max-history: 3
+
